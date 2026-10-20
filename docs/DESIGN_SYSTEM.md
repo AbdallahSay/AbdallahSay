@@ -27,7 +27,13 @@ The secondary accent is limited to one endpoint. Surface is reserved for future 
 - Mobile: 420 × 390 viewBox; 28-unit inset; name 56, role 24, product areas 19, brand 16. Used at viewport widths up to 600px.
 - Small labels are supporting decoration; role and product areas have larger text and are repeated in the document.
 - Body: GitHub's native font sizes, spacing, link states and heading anchors. No stylesheet is shipped for the README.
-- Five projects follow one sequence: title, one description, technologies, source and optional live link. No multi-column tables in the public README.
+- Information architecture follows a clean 6-stage flow:
+  1. **Brand Hero** — Theme-aware responsive SVG artwork and positioning.
+  2. **Introduction** — Concise, high-signal summary of engineering scope without repetitive hero copy.
+  3. **Selected Work** — Five projects presented with editorial hierarchy: consistent numbering (`01 / ...` to `05 / ...`), punchy value propositions, verified stack lines, unified accessible action labels (`Source code` and `Live demo ↗︎`, with explicit in-development status for unverified demos), and restrained horizontal rules between projects for rhythm.
+  4. **Engineering Expertise** — Grouped capability matrix (Backend Engineering, Frontend Engineering, Automation & Delivery) reflecting verified codebase evidence.
+  5. **Let’s Connect** — Direct, uncrowded collaboration and contact links (email and primary portfolio).
+  6. **Signature Footer** — Subtle Masar / Digital Craft brand closing.
 
 ## Asset behavior
 

@@ -5,6 +5,7 @@ These are screenshots of the **actual GitHub feature-branch README**, not standa
 | View | Light | Dark |
 | --- | --- | --- |
 | Desktop · 1440px viewport | [README crop](github-desktop-light.png) · [GitHub context](github-desktop-light-context.png) | [README crop](github-desktop-dark.png) · [GitHub context](github-desktop-dark-context.png) |
+| Tablet · 768px viewport | [README crop](github-tablet-light.png) · [GitHub context](github-tablet-light-context.png) | [README crop](github-tablet-dark.png) · [GitHub context](github-tablet-dark-context.png) |
 | Mobile · 390px viewport | [README crop](github-mobile-light.png) · [GitHub context](github-mobile-light-context.png) | [README crop](github-mobile-dark.png) · [GitHub context](github-mobile-dark-context.png) |
 | Narrow · 320px viewport | [README crop](github-narrow-light.png) | [README crop](github-narrow-dark.png) |
 | Explicit site theme, opposite system · desktop | [Light site / dark system](github-desktop-explicit-light.png) | [Dark site / light system](github-desktop-explicit-dark.png) |

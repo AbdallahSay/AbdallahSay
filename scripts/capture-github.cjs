@@ -11,8 +11,8 @@ const out='docs/previews';fs.mkdirSync(out,{recursive:true});
  try{
   const scenarios=[{theme:'light',explicit:null},{theme:'dark',explicit:null},{theme:'light',explicit:'dark'},{theme:'dark',explicit:'light'}];
   for(const {theme,explicit} of scenarios){
-   for(const [device,width,height] of [['desktop',1440,1050],['mobile',390,844],['narrow',320,780]]){
-    if(explicit&&device==='narrow')continue;
+   for(const [device,width,height] of [['desktop',1440,1050],['tablet',768,1024],['mobile',390,844],['narrow',320,780]]){
+    if(explicit&&(device==='narrow'||device==='tablet'))continue;
     const context=await browser.newContext({viewport:{width,height},colorScheme:theme,deviceScaleFactor:1,reducedMotion:'reduce'});
     const page=await context.newPage();
     await page.goto(url,{waitUntil:'networkidle',timeout:60000});
@@ -29,7 +29,8 @@ const out='docs/previews';fs.mkdirSync(out,{recursive:true});
     });
     if(!result.imageLoaded||result.articleScrollWidth>Math.ceil(result.articleWidth)+1||result.pageScrollWidth>width+1)throw new Error(`Layout/image failure at ${device} ${theme}: ${JSON.stringify(result)}`);
     const selectedTheme=explicit||theme;
-    const expected=`hero-${selectedTheme}${device==='desktop'?'':'-mobile'}.svg`;
+    const isMobile=device==='mobile'||device==='narrow';
+    const expected=`hero-${selectedTheme}${isMobile?'-mobile':''}.svg`;
     if(!result.imageSource.endsWith(expected))throw new Error(`Wrong hero: expected ${expected}, got ${result.imageSource}`);
     const label=explicit?`explicit-${explicit}`:theme;
     // Crop from a top-of-page full screenshot. Locator screenshots scroll the
