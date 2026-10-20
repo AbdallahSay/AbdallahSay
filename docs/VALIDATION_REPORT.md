@@ -9,7 +9,7 @@ Review date: 20 October 2026. Target: the root README in the separate public pro
 | GitHub Markdown sanitization | PASS | GitHub REST `/markdown`, GFM mode and repository context; output saved in [github-api-rendered.html](previews/github-api-rendered.html). Both responsive pictures, native theme links, alt text, headings and actions survive. |
 | Actual GitHub rendering | PASS | Hosted feature-branch README rendered by GitHub, captured in Chrome. No mock HTML or custom stylesheet used. [Preview index](previews/README.md). |
 | Desktop light / dark | PASS | 1440px viewport; 1012px article; matching desktop SVG; no document or article overflow. |
-| Tablet light / dark | PASS | 768px viewport; 720px article; matching desktop SVG; no document or article overflow. |
+| Tablet light / dark | PASS | 768px viewport; 670px article; matching desktop SVG; no document or article overflow. |
 | Mobile light / dark | PASS | 390px viewport; 324px article; matching mobile SVG; no overflow. |
 | Narrow light / dark | PASS | 320px viewport; 254px article; matching mobile SVG; no overflow. |
 | Explicit theme opposite to system | PASS | Desktop and mobile in each direction. GitHub's existing `data-color-mode` attribute was changed locally in the test browser to simulate a site preference; no account setting was changed. Native CSS selected one correct theme and the correct size. |
