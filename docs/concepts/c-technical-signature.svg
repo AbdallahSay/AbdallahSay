@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title"><title id="title">C — Technical / Developer Signature</title><rect width="1000" height="560" fill="#0B1120"/>
+<text x="48" y="60"  font-size="16" fill="#67E8F9" font-family="monospace" letter-spacing="2">MASAR / ENGINEERING NOTES</text>
+<path d="M48 90H952M48 345H952" stroke="#344155"/>
+<text x="48" y="162"  font-size="18" fill="#94A3B8" font-family="monospace">01 / identity</text>
+<text x="48" y="226" font-family="Arial, Helvetica, sans-serif" font-size="58" fill="#F1F5F9" font-weight="700">Abdallah Sayed</text>
+<text x="48" y="280" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#F1F5F9" >Full-stack software developer</text>
+<g fill="none" stroke="#344155"><path d="M720 126H908V284H720ZM720 205H908M814 126V284"/><circle cx="814" cy="205" r="60"/></g>
+<path d="M735 266L785 216H844L895 144" fill="none" stroke="#67E8F9" stroke-width="3"/>
+<text x="48" y="390"  font-size="17" fill="#67E8F9" font-family="monospace">02 / selected_work</text>
+<text x="48" y="447" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#F1F5F9" >Factory Quote Generator</text><text x="48" y="489" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#94A3B8" >ASP.NET Core → SQL Server → OpenXML</text>
+<text x="48" y="530" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#67E8F9" >View Portfolio ↗     Explore Projects     Contact</text></svg>

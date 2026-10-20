@@ -1,0 +1,256 @@
+{
+  "verifiedAt": "2026-10-20T15:45:55.984Z",
+  "checks": [
+    {
+      "name": "Public profile has no scripts, embedded styles, badges, tables or remote image services",
+      "pass": true
+    },
+    {
+      "name": "Five selected projects",
+      "pass": true
+    },
+    {
+      "name": "In-development qualification retained",
+      "pass": true
+    },
+    {
+      "name": "Contact and selected-work anchor",
+      "pass": true
+    },
+    {
+      "name": "Four local responsive hero assets",
+      "pass": true
+    },
+    {
+      "name": "assets/hero-dark-mobile.svg: local file exists",
+      "pass": true
+    },
+    {
+      "name": "assets/hero-dark-mobile.svg: static standalone SVG",
+      "pass": true
+    },
+    {
+      "name": "assets/hero-dark-mobile.svg: SVG parsed and rasterized",
+      "pass": true
+    },
+    {
+      "name": "assets/hero-dark.svg: local file exists",
+      "pass": true
+    },
+    {
+      "name": "assets/hero-dark.svg: static standalone SVG",
+      "pass": true
+    },
+    {
+      "name": "assets/hero-dark.svg: SVG parsed and rasterized",
+      "pass": true
+    },
+    {
+      "name": "assets/hero-light-mobile.svg: local file exists",
+      "pass": true
+    },
+    {
+      "name": "assets/hero-light-mobile.svg: static standalone SVG",
+      "pass": true
+    },
+    {
+      "name": "assets/hero-light-mobile.svg: SVG parsed and rasterized",
+      "pass": true
+    },
+    {
+      "name": "assets/hero-light.svg: local file exists",
+      "pass": true
+    },
+    {
+      "name": "assets/hero-light.svg: static standalone SVG",
+      "pass": true
+    },
+    {
+      "name": "assets/hero-light.svg: SVG parsed and rasterized",
+      "pass": true
+    },
+    {
+      "name": "dark: #F1F5F9 meets 4.5:1 text contrast",
+      "pass": true
+    },
+    {
+      "name": "dark: #94A3B8 meets 4.5:1 text contrast",
+      "pass": true
+    },
+    {
+      "name": "dark: #67E8F9 meets 4.5:1 text contrast",
+      "pass": true
+    },
+    {
+      "name": "dark: #A78BFA meets 4.5:1 text contrast",
+      "pass": true
+    },
+    {
+      "name": "light: #0F172A meets 4.5:1 text contrast",
+      "pass": true
+    },
+    {
+      "name": "light: #475569 meets 4.5:1 text contrast",
+      "pass": true
+    },
+    {
+      "name": "light: #087E91 meets 4.5:1 text contrast",
+      "pass": true
+    },
+    {
+      "name": "light: #7051B8 meets 4.5:1 text contrast",
+      "pass": true
+    },
+    {
+      "name": "GitHub sanitizer retains both responsive pictures",
+      "pass": true
+    },
+    {
+      "name": "GitHub sanitizer retains native theme-aware links",
+      "pass": true
+    },
+    {
+      "name": "GitHub sanitizer retains meaningful image alt",
+      "pass": true
+    },
+    {
+      "name": "Abdallah-Portfolio-V6-MasarTech-Nextjs: source link publicly accessible",
+      "pass": true
+    },
+    {
+      "name": "factory-quote-generator: source link publicly accessible",
+      "pass": true
+    },
+    {
+      "name": "digital-menu-saas: source link publicly accessible",
+      "pass": true
+    },
+    {
+      "name": "Nabra: source link publicly accessible",
+      "pass": true
+    },
+    {
+      "name": "watsstore-saas: source link publicly accessible",
+      "pass": true
+    },
+    {
+      "name": "https://abdallah-sayed-portfolio.vercel.app: live interface responds with page title",
+      "pass": true
+    },
+    {
+      "name": "https://factory-quote-frontend.vercel.app: live interface responds with page title",
+      "pass": true
+    },
+    {
+      "name": "https://nabra-studio.vercel.app: live interface responds with page title",
+      "pass": true
+    },
+    {
+      "name": "https://frontend-bay-ten-58.vercel.app: live interface responds with page title",
+      "pass": true
+    }
+  ],
+  "contrast": [
+    {
+      "theme": "dark",
+      "background": "#0B1120",
+      "foreground": "#F1F5F9",
+      "ratio": 17.19
+    },
+    {
+      "theme": "dark",
+      "background": "#0B1120",
+      "foreground": "#94A3B8",
+      "ratio": 7.34
+    },
+    {
+      "theme": "dark",
+      "background": "#0B1120",
+      "foreground": "#67E8F9",
+      "ratio": 12.99
+    },
+    {
+      "theme": "dark",
+      "background": "#0B1120",
+      "foreground": "#A78BFA",
+      "ratio": 6.92
+    },
+    {
+      "theme": "light",
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "ratio": 17.06
+    },
+    {
+      "theme": "light",
+      "background": "#F8FAFC",
+      "foreground": "#475569",
+      "ratio": 7.24
+    },
+    {
+      "theme": "light",
+      "background": "#F8FAFC",
+      "foreground": "#087E91",
+      "ratio": 4.56
+    },
+    {
+      "theme": "light",
+      "background": "#F8FAFC",
+      "foreground": "#7051B8",
+      "ratio": 5.64
+    }
+  ],
+  "repositories": [
+    {
+      "name": "Abdallah-Portfolio-V6-MasarTech-Nextjs",
+      "url": "https://github.com/AbdallahSay/Abdallah-Portfolio-V6-MasarTech-Nextjs",
+      "public": true
+    },
+    {
+      "name": "factory-quote-generator",
+      "url": "https://github.com/AbdallahSay/factory-quote-generator",
+      "public": true
+    },
+    {
+      "name": "digital-menu-saas",
+      "url": "https://github.com/AbdallahSay/digital-menu-saas",
+      "public": true
+    },
+    {
+      "name": "Nabra",
+      "url": "https://github.com/AbdallahSay/Nabra",
+      "public": true
+    },
+    {
+      "name": "watsstore-saas",
+      "url": "https://github.com/AbdallahSay/watsstore-saas",
+      "public": true
+    }
+  ],
+  "liveInterfaces": [
+    {
+      "url": "https://abdallah-sayed-portfolio.vercel.app",
+      "status": 200,
+      "title": "Abdallah Sayed — Creative Engineering &amp; Digital Products",
+      "scope": "Read-only page request; no product workflows invoked"
+    },
+    {
+      "url": "https://factory-quote-frontend.vercel.app",
+      "status": 200,
+      "title": "نظام إنشاء عروض الأسعار | مصنع المنتجات الإسمنتية",
+      "scope": "Read-only page request; no product workflows invoked"
+    },
+    {
+      "url": "https://nabra-studio.vercel.app",
+      "status": 200,
+      "title": "Nabra Masrya - Egyptian Voice & Audio Studio",
+      "scope": "Read-only page request; no product workflows invoked"
+    },
+    {
+      "url": "https://frontend-bay-ten-58.vercel.app",
+      "status": 200,
+      "title": "WatsStore | منصة إنشاء متاجر وكتالوجات الواتساب في مصر",
+      "scope": "Read-only page request; no product workflows invoked"
+    }
+  ]
+}

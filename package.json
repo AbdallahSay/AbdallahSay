@@ -1,0 +1,16 @@
+{
+  "name": "masar-github-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Authoring and visual verification tools; the README has no runtime dependencies.",
+  "scripts": {
+    "assets": "node scripts/create-assets.cjs",
+    "concepts": "node scripts/create-concepts.cjs",
+    "validate": "node scripts/validate.cjs",
+    "screenshots": "node scripts/capture-github.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1",
+    "sharp": "0.35.5"
+  }
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="370" viewBox="0 0 1000 370" role="img" aria-labelledby="title desc">
+<title id="title">Abdallah Sayed — Full-stack software developer</title>
+<desc id="desc">Masar Tech. SaaS, automation and digital products. An original geometric M follows a continuous path, representing thoughtful engineering and forward movement.</desc>
+<rect width="1000" height="370" rx="8" fill="#F8FAFC"/>
+
+      <text x="48" y="52" fill="#087E91" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="3">MASAR TECH</text>
+      <text x="952" y="52" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="end" letter-spacing="2">DIGITAL CRAFT /</text>
+      <text x="45" y="157" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" letter-spacing="-2.5">Abdallah Sayed</text>
+      <text x="48" y="211" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="27" >Full-stack software developer</text>
+      <text x="48" y="253" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="22" >SaaS · Automation · Digital products</text>
+      <g transform="translate(714 83) scale(1)" fill="none">
+    <rect x="0" y="0" width="220" height="220" rx="110" stroke="#CBD5E1"/>
+    <path d="M110 0V24M196 42L179 59M220 110H196M110 220V196M0 110H24" stroke="#CBD5E1"/>
+    <path d="M45 165V72Q45 56 57 68L110 121L163 68Q175 56 175 72V152Q175 165 188 165H202" stroke="#087E91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M45 184H175" stroke="#CBD5E1" stroke-dasharray="2 6"/>
+    <circle cx="45" cy="165" r="5" fill="#F8FAFC" stroke="#087E91" stroke-width="2"/>
+    <circle cx="202" cy="165" r="5" fill="#7051B8"/>
+  </g>
+      <path d="M48 305H660" stroke="#CBD5E1"/>
+      <text x="48" y="340" fill="#087E91" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2.3">BUILD</text>
+      <text x="141" y="340" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2.3">/ AUTOMATE / REFINE</text>
+</svg>
