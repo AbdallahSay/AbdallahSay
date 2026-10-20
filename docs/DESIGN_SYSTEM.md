@@ -31,9 +31,9 @@ The secondary accent is limited to one endpoint. Surface is reserved for future 
 
 ## Asset behavior
 
-`picture` sources are ordered: mobile dark, mobile light, desktop dark, light fallback. Assets use SVG primitives and text only. No scripts, foreignObject, external references, CSS, fonts, filters or animation. The fallback `img` supplies meaningful alt text and intrinsic width; GitHub constrains it to the content column.
+Each theme uses a `picture` with a mobile source and desktop fallback. GitHub's native `#gh-dark-mode-only` / `#gh-light-mode-only` link selectors choose the theme; each banner also links to the portfolio. Assets use SVG primitives and text only. No scripts, foreignObject, external references, CSS, fonts, filters or animation. Each fallback `img` supplies meaningful alt text and intrinsic width; GitHub constrains it to the content column.
 
-GitHub's `themed-picture` wrapper may rewrite color-scheme media conditions to match explicit site themes. Actual site light/dark settings are tested separately from operating-system color scheme. If a downstream Markdown viewer ignores `picture`, the light fallback stays readable.
+GitHub's live `themed-picture` implementation rewrites color-scheme source conditions to match explicit site themes, dropping additional width conditions. That would select mobile artwork on desktop when a visitor explicitly chooses dark mode. Theme selection therefore uses GitHub's native link selectors, leaving width-only picture sources intact. Browser verification includes automatic themes and opposite-system explicit themes. Generic Markdown viewers without GitHub's theme selectors may show both banners; GitHub is the target renderer.
 
 ## Copy rules
 

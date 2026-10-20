@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-10-20T15:07:30.273Z",
+  "verifiedAt": "2026-10-20T15:11:34.426Z",
   "checks": [
     {
       "name": "Public profile has no scripts, embedded styles, badges, tables or remote image services",
@@ -34,18 +34,6 @@
       "pass": true
     },
     {
-      "name": "assets/hero-light-mobile.svg: local file exists",
-      "pass": true
-    },
-    {
-      "name": "assets/hero-light-mobile.svg: static standalone SVG",
-      "pass": true
-    },
-    {
-      "name": "assets/hero-light-mobile.svg: SVG parsed and rasterized",
-      "pass": true
-    },
-    {
       "name": "assets/hero-dark.svg: local file exists",
       "pass": true
     },
@@ -55,6 +43,18 @@
     },
     {
       "name": "assets/hero-dark.svg: SVG parsed and rasterized",
+      "pass": true
+    },
+    {
+      "name": "assets/hero-light-mobile.svg: local file exists",
+      "pass": true
+    },
+    {
+      "name": "assets/hero-light-mobile.svg: static standalone SVG",
+      "pass": true
+    },
+    {
+      "name": "assets/hero-light-mobile.svg: SVG parsed and rasterized",
       "pass": true
     },
     {
@@ -102,7 +102,11 @@
       "pass": true
     },
     {
-      "name": "GitHub sanitizer retains picture and all three source conditions",
+      "name": "GitHub sanitizer retains both responsive pictures",
+      "pass": true
+    },
+    {
+      "name": "GitHub sanitizer retains native theme-aware links",
       "pass": true
     },
     {

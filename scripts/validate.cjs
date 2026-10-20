@@ -38,7 +38,8 @@ const ratio=(a,b)=>{const x=luminance(a),y=luminance(b);return (Math.max(x,y)+.0
   }
   const rendered=gh(['api','markdown','--method','POST','--input','-'],JSON.stringify({mode:'gfm',context:'AbdallahSay/AbdallahSay',text:readme}));
   fs.writeFileSync(`${out}/github-api-rendered.html`,rendered);
-  check('GitHub sanitizer retains picture and all three source conditions',(rendered.match(/<source /g)||[]).length===3&&rendered.includes('<picture>'));
+  check('GitHub sanitizer retains both responsive pictures',(rendered.match(/<source /g)||[]).length===2&&(rendered.match(/<picture>/g)||[]).length===2);
+  check('GitHub sanitizer retains native theme-aware links',rendered.includes('#gh-dark-mode-only')&&rendered.includes('#gh-light-mode-only'));
   check('GitHub sanitizer retains meaningful image alt',rendered.includes('alt="Abdallah Sayed'));
   const repos=[...new Set([...readme.matchAll(/https:\/\/github\.com\/AbdallahSay\/([\w.-]+)/g)].map(m=>m[1]))];
   for(const repo of repos){

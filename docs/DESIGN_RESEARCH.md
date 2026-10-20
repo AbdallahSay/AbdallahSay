@@ -30,7 +30,7 @@ The [profile README gallery](https://github.com/abhisheknaiidu/awesome-github-pr
 | Color discipline | Cyan/teal primary accent and a single violet endpoint; neutral backgrounds. |
 | Negative space | Broad hero margins and GitHub's native paragraph rhythm; no empty spacer images. |
 | Mobile | Single-column project sequence; separate compact hero composition at 600px and below. |
-| Themes | Four local assets: light/dark × desktop/mobile. Light fallback if picture sources are unavailable. |
+| Themes | Four local assets: light/dark × desktop/mobile. GitHub's native theme link selectors choose the theme; picture chooses the size. |
 | Accessibility | Identity repeated in meaningful alt text and prose; body links remain selectable and keyboard accessible; static artwork. |
 | Differentiation | Original continuous M-shaped route and editorial identity, without contribution gimmicks or invented metrics. |
 
@@ -53,3 +53,5 @@ Scores are art-direction judgments from 1 (weak) to 5 (strong), not measured aud
 ## GitHub constraints
 
 [GitHub's profile README requirements](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme) establish the public username repository and root README convention. [GitHub's picture-element guidance](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-images) informs theme selection. Actual sanitizer output and actual branch rendering are checked separately in the validation report; browser mockups are not treated as the final proof.
+
+Implementation finding: GitHub's live `themed-picture` JavaScript strips width conditions from theme sources when applying an explicitly chosen site theme. The final composition avoids that interaction by using native theme-aware links around width-only pictures. GitHub's own loaded CSS confirms that these selectors support both explicit and system-synced themes. No custom CSS or JavaScript is added to the README.
